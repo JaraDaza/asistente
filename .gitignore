@@ -1,0 +1,37 @@
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Variables de entorno REALES (nunca subir)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Bases de datos locales
+*.sqlite
+*.db
+
+# Modelos grandes (descomenta si facecap.glb es muy pesado)
+# facecap.glb
